@@ -34,7 +34,7 @@ Hyperparameter tuning is performed using Randomized Search Cross-Validation. Dif
 
 The model is evaluated using RMSE and R-squared (R2) metrics on both the training and test datasets. The evaluation results are displayed, and a hyperparameter tuning plot is generated to visualize the impact of hyperparameters on model performance.
 
-## OLS Model (Optional)
+## OLS Model 
 
 A model is built using the `statsmodels` library for a more detailed statistical summary.
 
@@ -42,7 +42,7 @@ A model is built using the `statsmodels` library for a more detailed statistical
 
 The repository is organized as follows:
 
-- CS4372HW1.py: Python script for predicting apartment prices.
+- 'CS4372HW1.py': Python script for predicting apartment prices.
 - `README.md`: This README file providing an overview of the project.
 
 ## Dependencies
