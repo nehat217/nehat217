@@ -42,7 +42,7 @@ A model is built using the `statsmodels` library for a more detailed statistical
 
 The repository is organized as follows:
 
-- `apartment_price_prediction.ipynb`: Google Colab containing the code for data preprocessing, EDA, model building, hyperparameter tuning, and evaluation.
+- CS4372HW1.py: Python script for predicting apartment prices.
 - `README.md`: This README file providing an overview of the project.
 
 ## Dependencies
@@ -60,7 +60,9 @@ You can install these libraries using `pip install` if they are not already inst
 
 ## How to Run
 
-To run the Google Colaboratory Notebook, you can use Google Colab. Simply open the notebook and execute each cell in order.
+Install all dependencies above.  Open your terminal or command prompt and navigate to the directory where CS4372HW1.py is located. 
+
+Execute the script using the Python interpreter: python apartment_price_prediction.py
 
 Please note that this project requires an internet connection to access the dataset from the provided URL.
 URL = "https://raw.githubusercontent.com/nehat217/nehat217/main/apartments_for_rent_classified_10K.csv"
